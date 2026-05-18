@@ -2,12 +2,22 @@
   "name": "zod-gpx",
   "version": "0.1.0",
   "description": "Zod-powered GPX 1.1 file validator for the browser",
-  "author": "Jon Dent <jon@dent7.co.uk>",
   "license": "MIT",
-  "keywords": ["gpx", "zod", "validation", "gps", "xml"],
+  "author": "Jonny64bit",
+  "keywords": [
+    "gpx",
+    "zod",
+    "validation",
+    "gps",
+    "xml"
+  ],
+  "homepage": "https://github.com/jonny64bit/zod-gpx/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jondent/zod-gpx"
+    "url": "https://github.com/jonny64bit/zod-gpx"
+  },
+  "bugs": {
+    "url": "https://github.com/jonny64bit/zod-gpx/issues"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -20,7 +30,9 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -50,6 +62,8 @@
     }
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
