@@ -1,6 +1,6 @@
 {
   "name": "zod-gpx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zod-powered GPX 1.1 file validator for the browser",
   "license": "MIT",
   "author": "Jonny64bit",
